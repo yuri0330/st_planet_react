@@ -1,0 +1,48 @@
+.productDetailPage {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.productHeader img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+    display: block;
+}
+
+.priceSection .originalPrice {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.priceSection .discountPrice {
+    font-size: 24px;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.optionsSection {
+    margin: 20px 0;
+}
+
+.optionsSection select,
+.optionsSection input {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.actionButtons button {
+    width: 48%;
+    padding: 10px;
+    margin: 10px 1%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.productDetails ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}

@@ -1,0 +1,62 @@
+.SD_spBnr_10_frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* gap 줄이기 */
+    padding: 10px; /* 양끝 패딩 줄이기 */
+    background-color: #f9f9f9;
+    
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.listItem {
+    flex: 1 1 auto; /* 크기를 유연하게 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px; /* 양끝 마진 최소화 */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 20px; /* 패딩 약간 증가 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 240px; /* 고정 너비 조정 */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.image {
+    width: 100%;
+    max-width: 250px; /* 이미지 크기 증가 */
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+}
